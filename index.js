@@ -9,7 +9,7 @@ try {
 
   (function Demo() {
     // Use let (or const) instead of var to make the function succeed.
-    const myDemo = "This is a dem"; sdf
+    const myDemo = "This is a dem";
 
     // Don't make changes below this line
 
