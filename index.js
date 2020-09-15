@@ -357,10 +357,19 @@ try {
 
   /// class (bonus) ///
 
-  /*
+  
 	(function UseClass() {
 		// Let Multiplier be a class with the appropriate methods to succeed.
-		let Multiplier = 'class';
+		//let Multiplier = 'class';
+
+		class Multiplier {
+			constructor(number1) {
+				this.number1 = number1;
+			}
+			multiply(number2) {
+				return this.number1 * number2;
+			}
+		}
 
 		// Don't make changes below this line	
 		
@@ -370,7 +379,7 @@ try {
 		
 		solvedBonus++;
 	})();
-	*/
+	
 
   /// Template strings (bonus) ///
 
