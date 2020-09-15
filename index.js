@@ -383,10 +383,13 @@ try {
 
   /// Template strings (bonus) ///
 
-  /*
+  
 	(function UseTemplateStrings2() {
 		// Rewrite the line below to use a template string.
-		const text = 'line 1line 2';
+		//const text = 'line 1line 2';
+
+		const text = `line 1
+line 2`;
 
 		// Don't make changes below this line	
 		
@@ -394,7 +397,7 @@ try {
 		
 		solvedBonus++;
 	})();
-	*/
+	
 
   /// Arrow functions (bonus) ///
 
