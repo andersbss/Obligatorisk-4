@@ -462,12 +462,12 @@ line 2`;
 	})();
 	
 
-  /*
+  
 	(function UseFailSoftDestructuring() {
 		const arr = [1, 2];
 		
     // change the left side (before =) below to let the tests succeed.
-		let [a, b] = arr;
+		let [a, b, c=3, d] = arr;
 
 		// Don't make changes below this line	
 		
@@ -478,7 +478,7 @@ line 2`;
 
 		solvedBonus++;
 	})();
-	*/
+	
 
   /*
 	(function UseNestedDestructuring() {
