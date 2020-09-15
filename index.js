@@ -480,7 +480,7 @@ line 2`;
 	})();
 	
 
-  /*
+  
 	(function UseNestedDestructuring() {
 		let obj = {
 			add: (x, y) => x + y,
@@ -489,9 +489,11 @@ line 2`;
 			};
 		
 		// Use destructuring to change the 3 statements below into 1 statement.
-		let a = obj.add;
-		let b = obj.city.name;
-		let c = obj.arr.slice(1);
+		//let a = obj.add;
+		//let b = obj.city.name;
+		//let c = obj.arr.slice(1);
+
+		let { add: a, city: { name: b }, arr: [,...c]} = obj;
 
 		// Don't make changes below this line	
 		
@@ -501,7 +503,7 @@ line 2`;
 		
 		solvedBonus++;
 	})();
-	*/
+	
 
   /*
   (function UseDestructuring() {
