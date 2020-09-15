@@ -88,7 +88,7 @@ try {
 
   /// Spread operator ///
 
-  /*
+  
 	(function UseSpreadOperator1() {
 		function add(a, b, c) {
 			return a + b + c;
@@ -97,7 +97,7 @@ try {
 		let values = [1, 3, 6];
 		
 		// Use spread operator to let the test pass.
-		let result = add(values);
+		let result = add(...values);
 
 		// Don't make changes below this line	
 		
@@ -105,7 +105,7 @@ try {
 		
 		solved++;
 	})();
-	*/
+	
 
   /*
 	(function UseSpreadOperator2() {
