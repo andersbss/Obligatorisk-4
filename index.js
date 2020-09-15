@@ -227,11 +227,11 @@ try {
 	})();
 	
 
-  /*
+  
   (function UseParameterDestructuring1() {
     // Adjust the code to let the test succeed.
 
-    const a = 'Oslo' + 985;
+    const a = ['Oslo', 985];
 
     // Don't make changes below this line
 
@@ -244,7 +244,7 @@ try {
 
     solved++;
   })();
-	*/
+	
 
   /*
   (function UseParameterDestructuring2() {
