@@ -180,16 +180,18 @@ try {
 	})();
 	
 
-  /*
+  
 	(function UseArrayDestructuring2() {
 		let a = 1;
 		let b = 2;
 		
 		// Use array destructuring to change the 3 statements below into 1 statement.
 		// You should not need a temporary variable anymore.
-		let tmp = a;
-		a = b;
-		b = tmp; 
+		//let tmp = a;
+		//a = b;
+		//b = tmp; 
+
+		[a, b] = [b, a];
 
 		// Don't make changes below this line	
 		
@@ -198,7 +200,7 @@ try {
 		
 		solved++;
 	})();
-	*/
+	
 
   /*
 	(function UseObjectDestructuring1() {
