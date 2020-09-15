@@ -437,7 +437,7 @@ line 2`;
 
   /// Destructuring (bonus) ///
 
-  /*
+  
 	(function UseObjectDestructuring2() {
 		let obj = {
 			name: 'Oslo',
@@ -446,9 +446,11 @@ line 2`;
 		}
 		
 		// Use object destructuring to change the 3 statements below into 1 statement.
-		let a = obj.name;
-		let b = obj.age;
-		let c = obj.add;
+		//let a = obj.name;
+		//let b = obj.age;
+		//let c = obj.add;
+
+		let {name: a, age: b, add: c} = obj;
 
 		// Don't make changes below this line	
 		
@@ -458,7 +460,7 @@ line 2`;
 		
 		solvedBonus++;
 	})();
-	*/
+	
 
   /*
 	(function UseFailSoftDestructuring() {
