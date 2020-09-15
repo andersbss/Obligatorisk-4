@@ -338,12 +338,12 @@ try {
 
   /// Method definitions (bonus) ///
 
-  /*
+  
 	(function UseMethodDefinitions() {
 		// Use method properties to remove unnecessary syntax. DO NOT use arrow functions.
 		let obj = {
-			add: function (a, b) { return a + b; },
-			subtract: function (a, b) { return a - b; }
+			add (a, b) { return a + b; },
+			subtract (a, b) { return a - b; }
 		}
 
 		// Don't make changes below this line	
@@ -353,7 +353,7 @@ try {
 		
 		solvedBonus++;
 	})();
-	*/
+	
 
   /// class (bonus) ///
 
