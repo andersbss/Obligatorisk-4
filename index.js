@@ -107,14 +107,14 @@ try {
 	})();
 	
 
-  /*
+  
 	(function UseSpreadOperator2() {
 		const arr1 = [1, 2, 3];
 		const value = 4;
 		const arr2 = [5, 6];
-		
+
 		// Change after = to let the test pass. DO NOT use concat or loops, but use the spread operator.
-		let result = [0];
+		let result = [...arr1, value, ...arr2];
 
 		// Don't make changes below this line	
 		
@@ -122,7 +122,7 @@ try {
 		
 		solved++;
 	})();
-	*/
+	
 
   /// Arrow functions ///
 
