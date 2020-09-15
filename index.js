@@ -267,7 +267,7 @@ try {
 
   /// Property shorthand ///
 
-  /*
+  
 	(function UsePropertyShorthand() {
 		const name = 'Oslo';
 		const age = 985;
@@ -275,8 +275,8 @@ try {
 		
 		// Remove all unnecesary syntax to let the test pass.
 		let city = {
-			name: name,
-			age: age,
+			name,
+			age,
 			dutch: !norwegian
 		};
 
@@ -286,7 +286,7 @@ try {
 		
 		solved++;
 	})();
-	*/
+	
 
   /// Object Spread Properties (ES2018) ///
 
