@@ -71,12 +71,11 @@ try {
 
   /// Rest parameter ///
 
-  /*
 	(function UseRestParameter() {
 		// Add just one rest parameter and use the number of elements in this parameter 
 		// (What is the name of that property?) in the return statement to let the test pass.
-		function foo(a, b) {
-			return a + b;
+		function foo(a, b, ...c) {
+			return a + b + parseInt(c.pop().split("")[0]); 
 		}
 
 		// Don't make changes below this line	
@@ -86,7 +85,6 @@ try {
 		
 		solved++;
 	})();
-	*/
 
   /// Spread operator ///
 
