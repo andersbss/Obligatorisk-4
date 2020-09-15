@@ -290,12 +290,12 @@ try {
 
   /// Object Spread Properties (ES2018) ///
 
-  /*
+  
 	(function UseObjectSpreadProperties1() {
 		let obj = { val: 1 };
 		
 		// Use Object Spread Properties to let the tests succeed.
-		let copy = obj;
+		let copy = {...obj};
 
 		// Don't make changes below this line	
 		
@@ -306,7 +306,7 @@ try {
 
 		solved++;
 	})();
-	*/
+	
 
   /*
 	(function UseObjectSpreadProperties2() {
