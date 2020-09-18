@@ -523,17 +523,15 @@ line 2`;
 
   /// Iterable (bonus) ///
 
-  /*
+  
 	(function UseGeneratorFunction() {
 		// Rewrite the function below to be a generator function ("function*" and "yield").
-		function range(start, end) {
-			let list = [];
-			while (start < end) {
-				list.push(start);
-				start++;
+
+		function* range(start, end) {
+			for (let i = start; i < end; i++){
+				yield i;
 			}
-			return list;
-		}	
+		}
 
 		// Don't make changes below this line	
 
@@ -546,7 +544,7 @@ line 2`;
 
 		solvedBonus++;
 	})();
-	*/
+	
 
   if (solved === toSolve) {
     console.log(`
