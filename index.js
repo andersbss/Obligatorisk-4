@@ -530,7 +530,7 @@ line 2`;
 		function* range(start, end) {
 			for (let i = start; i < end; i++){
 				yield i;
-			}
+			};
 		}
 
 		// Don't make changes below this line	
